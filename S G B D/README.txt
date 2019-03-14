@@ -1,0 +1,41 @@
+>>  Projeto ITP/PTP <<
+
+→   Quanto ao armazenamento:
+    Aviso: Não excluir as 2 duas pastas existentes, "tabelas" e "tabelas_preenchidas",  nem o arquivo "nomes_tabelas.txt".
+
+→   Todas as 7 funções do projeto foram realizadas com sucesso, com apenas uma ressalva na função de excluir linha, 
+e uma função extra:
+    -   Criar tabela;
+    -   Listar todas as tabelas;
+    -   Criar linha na tabela;
+    -   Excluir linha na tabela ¹;
+    -   Imprimir todo o conteúdo da tabela;
+    -   Excluir tabela;
+    -   Pesquisar valor na tabela;
+    -   FUNÇÃO EXTRA: mudar nome de uma coluna.
+
+¹ Esta ocorrendo um bug que cria um linha em branco ao excluir o último índiceda tabela.
+
+→   O que fariamos diferente:
+    Fariamos o programa utilzando nos arquivos a extensão .csv, para facilitar a manipulação e evitar bugs presentes no programa.
+
+→   Para compilar:
+    -   Para compilar o programa, utilizar o comando "make" dentro do diretorio do programa. Podem aparecer alguns "warnings"
+    em funções fprintf, mas eles não interferem na usabilidade;
+    -   Para executar o aplicativo, usar o comando "./sgbd";
+    -   Caso queira excluir os ".o" e  o executavel do programa, utilizar o comando "make clean".
+
+→ Autores:
+    -   Marcos Vinicio Araujo Delgado Junior;
+    -   Ranieri de Oliveira Santos.
+
+→ Contribuições:
+    -   Modularização (Marcos e Ranieri);
+    -   Excluir tabela (Marcos e Ranieri);
+    -   FUNÇÃO EXTRA(Marcos);
+    -   Excluir linha (Marcos e Ranieri);
+    -   Criar tabela (Marcos e Ranieri com tentativa de csv);
+    -   Listar todas as tabelas (Marcos e Ranieri);
+    -   Excluir linha (Marcos);
+    -   Pesquisar valor (Marcos);
+    -   Criar linha na tabela (Marcos e Ranieri);
