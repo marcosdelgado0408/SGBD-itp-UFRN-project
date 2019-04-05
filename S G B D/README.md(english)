@@ -1,0 +1,4 @@
+This was projet in <<language C>> about database management system (SGBD), tu us students use what we have learnd about the language c.
+
+you can install this porgram just going in to the projet directory and typing "make";
+to run the executable just type "./SGBD", and it should run
